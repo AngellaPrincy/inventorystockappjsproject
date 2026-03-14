@@ -1,0 +1,148 @@
+{
+  "stocks": [
+    {
+      "id": "1",
+      "productName": "Laptop Dell XPS",
+      "sku": "LAP-DEL-001",
+      "category": "Electronics",
+      "quantity": 25,
+      "unitPrice": 899.99,
+      "totalValue": 22499.75,
+      "reorderLevel": 10,
+      "supplier": "Tech Distributors Inc",
+      "location": "Warehouse A",
+      "lastUpdated": "2024-03-15",
+      "status": "In Stock"
+    },
+    {
+      "id": "2",
+      "productName": "Office Chair",
+      "sku": "FUR-CHA-002",
+      "category": "Furniture",
+      "quantity": 8,
+      "unitPrice": 149.5,
+      "totalValue": 1196,
+      "reorderLevel": 15,
+      "supplier": "Office Supplies Co",
+      "location": "Warehouse B",
+      "lastUpdated": "2024-03-14",
+      "status": "Low Stock"
+    },
+    {
+      "id": "3",
+      "productName": "Wireless Mouse",
+      "sku": "ACC-MOU-003",
+      "category": "Electronics",
+      "quantity": 45,
+      "unitPrice": 29.99,
+      "totalValue": 1349.55,
+      "reorderLevel": 20,
+      "supplier": "Tech Distributors Inc",
+      "location": "Warehouse A",
+      "lastUpdated": "2024-03-15",
+      "status": "In Stock"
+    },
+    {
+      "id": "4",
+      "productName": "USB-C Cable",
+      "sku": "ACC-USB-004",
+      "category": "Accessories",
+      "quantity": 0,
+      "unitPrice": 12.99,
+      "totalValue": 0,
+      "reorderLevel": 30,
+      "supplier": "Electronic Parts Supplier",
+      "location": "Warehouse C",
+      "lastUpdated": "2024-03-10",
+      "status": "Out of Stock"
+    },
+    {
+      "id": "5",
+      "productName": "Monitor Stand",
+      "sku": "FUR-MON-005",
+      "category": "Furniture",
+      "quantity": 12,
+      "unitPrice": 49.99,
+      "totalValue": 599.88,
+      "reorderLevel": 5,
+      "supplier": "Office Supplies Co",
+      "location": "Warehouse B",
+      "lastUpdated": "2024-03-13",
+      "status": "In Stock"
+    },
+    {
+      "id": "6",
+      "productName": "Desk Lamp",
+      "sku": "ACC-LAM-006",
+      "category": "Accessories",
+      "quantity": 3,
+      "unitPrice": 34.5,
+      "totalValue": 103.5,
+      "reorderLevel": 8,
+      "supplier": "Lighting Corp",
+      "location": "Warehouse B",
+      "lastUpdated": "2024-03-12",
+      "status": "Low Stock"
+    },
+    {
+      "id": "7",
+      "productName": "Mechanical Keyboard",
+      "sku": "ACC-KEY-007",
+      "category": "Electronics",
+      "quantity": 18,
+      "unitPrice": 129.99,
+      "totalValue": 2339.82,
+      "reorderLevel": 10,
+      "supplier": "Tech Distributors Inc",
+      "location": "Warehouse A",
+      "lastUpdated": "2024-03-14",
+      "status": "In Stock"
+    },
+    {
+      "id": "8",
+      "productName": "Printer Paper (500 sheets)",
+      "sku": "SUP-PAP-008",
+      "category": "Office Supplies",
+      "quantity": 75,
+      "unitPrice": 5.99,
+      "totalValue": 449.25,
+      "reorderLevel": 20,
+      "supplier": "Paper Supplies Ltd",
+      "location": "Warehouse C",
+      "lastUpdated": "2024-03-15",
+      "status": "In Stock"
+    },
+    {
+      "id": "bf2b",
+      "productName": "Bluetooth Speaker",
+      "sku": "ELE-SPE-016",
+      "category": "Electronics",
+      "quantity": 13,
+      "unitPrice": 55.75,
+      "reorderLevel": 9,
+      "supplier": "Audio Devices Co",
+      "location": "Warehouse B",
+      "totalValue": 724.75,
+      "lastUpdated": "2026-03-13"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Furniture"
+    },
+    {
+      "id": "3",
+      "name": "Office Supplies"
+    },
+    {
+      "id": "4",
+      "name": "Accessories"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
