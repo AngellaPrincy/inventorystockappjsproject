@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { AlertCircle, Package, DollarSign, TrendingDown, Trash2 } from 'lucide-react';
+import { AlertCircle, Package, IndianRupee, TrendingDown, Trash2 } from 'lucide-react';
 import toast from 'react-hot-toast';
 import StockForm from '../components/StockForm.jsx';
 import StockTable from '../components/StockTable.jsx';
@@ -157,7 +157,7 @@ const Dashboard = () => {
                 </p>
               </div>
               <div className="bg-green-100 p-3 rounded-lg">
-                <DollarSign size={24} className="text-green-600" />
+                <IndianRupee size={24} className="text-green-600" />
               </div>
             </div>
           </div>

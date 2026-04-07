@@ -82,7 +82,7 @@ const Charts = ({ stocks = [] }) => {
               <XAxis dataKey="name" />
               <YAxis />
               <Tooltip
-                formatter={(value) => `$${value.toFixed(2)}`}
+                formatter={(value) => `₹${value.toFixed(2)}`}
                 contentStyle={{ backgroundColor: '#f3f4f6', border: 'none', borderRadius: '8px' }}
               />
               <Bar dataKey="value" fill="#3b82f6" />
